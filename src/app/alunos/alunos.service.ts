@@ -1,3 +1,4 @@
+import { Aluno } from './../core/model';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -6,4 +7,12 @@ import { Injectable } from '@angular/core';
 export class AlunosService {
 
   constructor() { }
+
+  list(): Aluno[] {
+    return [
+      {id: 1, nomealuno: 'Jonatas'},
+      {id: 2, nomealuno: 'Gabriel'}
+
+    ];
+  }
 }

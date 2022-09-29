@@ -4,3 +4,10 @@ export interface Curso {
   nomecurso: string;
 
 }
+
+export interface Aluno {
+
+  id: number;
+  nomealuno: string;
+
+}
